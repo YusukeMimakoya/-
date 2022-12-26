@@ -113,7 +113,7 @@ def inference(image, background_enhance, face_upsample, upscale, codeformer_fide
         face_size=512,
         crop_ratio=(1, 1),
         det_model=detection_model,
-        save_ext="pgm",
+        save_ext="png",
         use_parse=True,
         device=device,
     )
